@@ -7,6 +7,7 @@ export default defineConfig({
         port:3000
     },
     build: {
+        assetsInlineLimit: 0,
         chunkSizeWarningLimit: 1600,
     }
 })
